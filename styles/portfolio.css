@@ -136,7 +136,8 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-/* abut section styles */
+
+/* about section styles */
 
 .about {
     padding: 130px 160px;
@@ -149,7 +150,7 @@ main {
 }
 
 .section-description {
-    color:  #757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -166,4 +167,25 @@ main {
 
 .about-info-container .about-info {
     text-align: center;
+}
+
+/* what i do section */
+.what-i-do {
+    max-width: 909px;
+    margin: 0 auto;
+}
+
+.skill-box {
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
