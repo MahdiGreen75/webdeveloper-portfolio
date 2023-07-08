@@ -17,7 +17,7 @@ body {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
-    color:  #FFF;
+    color: #FFF;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -32,6 +32,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 #nav-title {
@@ -57,4 +58,22 @@ nav li {
 li>a {
     text-decoration: none;
     color: #474747
+}
+
+/* header related styles */
+.header {
+    background-color: #fff8f3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 584px;
+    height: 676px;
 }
