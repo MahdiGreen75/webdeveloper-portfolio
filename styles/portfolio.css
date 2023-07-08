@@ -249,3 +249,9 @@ main {
     font-weight: 400;
     line-height: 28px;
 }
+
+.download-cv{
+    text-align: center;
+    /* display: inline-block; */
+    margin-top: 50px;
+}
