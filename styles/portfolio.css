@@ -308,9 +308,9 @@ footer {
     height: 64px;
     border-radius: 5px;
     background: #FFF;
-    
+
 }
-    
+
 
 #message-input {
     width: 461px;
@@ -319,17 +319,17 @@ footer {
     background: #FFF;
     padding-top: 30px;
     padding-bottom: 200px;
-   
+
 }
 
 input {
     margin-bottom: 24px;
     margin-top: 0;
     display: block;
-    color:#757575;
+    color: #757575;
     border: none;
     font-size: 16px;
-   
+
     padding-left: 30px;
     font-weight: 400;
     line-height: 28px;
@@ -338,8 +338,10 @@ input {
 .hide {
     display: none;
 }
+
 /* Responsive Styles */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
+
     /* what i do section responsive style */
     .skills-container {
         display: flex;
@@ -348,22 +350,70 @@ input {
         align-items: center;
         gap: 10px;
     }
+
     .skill-box {
         margin: 0 auto;
         width: 90%;
+        background-color: rgba(137, 43, 226, 0.178);
     }
+
     .what-i-do {
         width: 100%;
     }
+
     .what-i-do-description {
         font-size: small;
         line-height: 18px;
         padding: 0 10px;
     }
+
     .skill-description {
         font-size: small;
         line-height: 20px;
     }
 
-    
+    /* resume section responsive style */
+    .resume-container {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+
+    .section-title {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .resume-column-title,
+    .resume-item-title {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .resume-item-institute {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .resume-item-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .resume-column-title,
+    .resume-item-title,
+    .resume-item-institute {
+        text-align: center;
+    }
+    .btn-primary {
+        font-size: 10px;
+        font-weight: 900;
+        padding: 7px 16px;
+    }
+    .download-cv {
+        margin-top: 0;
+    }
 }
