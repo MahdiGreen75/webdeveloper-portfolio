@@ -151,6 +151,10 @@ main {
     border: 1px solid #FFF8F3;
 }
 
+.about-margin-fix {
+    margin-top: 0;
+}
+
 .section-description {
     color: #757575;
     text-align: center;
@@ -474,4 +478,25 @@ input {
         display: block;
         margin: 10px auto;
     }
+
+    /* About section responsive styels */
+    .about {
+        padding: 0;
+        width: 100%;
+        height: auto;
+        margin: 60px 0;
+    }
+    .about-info-container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+    }
+    .section-description {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        margin: 14px auto;
+    }
+    
 }
