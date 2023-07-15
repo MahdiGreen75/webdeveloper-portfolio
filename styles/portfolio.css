@@ -408,12 +408,70 @@ input {
     .resume-item-institute {
         text-align: center;
     }
-    .btn-primary {
+
+    .btn-primary,
+    input[type="button"] {
         font-size: 10px;
         font-weight: 900;
         padding: 7px 16px;
     }
+
     .download-cv {
         margin-top: 0;
+    }
+
+    /* footer section responsive style */
+    footer {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        margin-top: 50px;
+        gap: 12px;
+    }
+
+    #text-input,
+    #email-input {
+        height: 36px;
+        width: 100%;
+    }
+
+    #message-input {
+        width: 100%;
+        padding: 0;
+        height: 110px;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 80px;
+    }
+
+    .footer-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .footer-description {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .social-media-links {
+        margin-top: 10px;
+    }
+
+    input {
+        margin-bottom: 10px;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    /* ---> some style rules of form button  is on line 412 */
+    input[type="button"] {
+        display: block;
+        margin: 10px auto;
     }
 }
